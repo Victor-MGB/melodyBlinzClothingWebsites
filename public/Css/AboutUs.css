@@ -1,0 +1,21 @@
+nav a {
+            padding: 0.5rem 1rem;
+            transition: background-color 0.2s;
+        }
+        nav a:hover {
+            background-color: #4a5568;
+        }
+        /* Styling the mobile menu button */
+        #mobile-menu-button svg {
+            width: 10px;
+            height: 1.5rem;
+        }
+        /* Styling the mobile menu links */
+        #mobile-menu a {
+            display: block;
+            padding: 0.5rem 1rem;
+            transition: background-color 0.2s;
+        }
+        #mobile-menu a:hover {
+            background-color: #4a5568;
+        }

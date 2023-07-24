@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Css/Homepage.css">
+</head>
+<body>
+    <header class="bg-gray-900 text-white py-4">
+        <div class="container mx-auto px-4 flex items-center justify-between">
+
+<div class="md:hidden">
+    <button class="text-white focus:outline-none" id="mobile-menu-button">
+        <i class="fas fa-bars"></i>
+    </button>
+</div>
+
+
+            <img src="/images/brandlog.jpg" alt="Brand Logo" class="h-8 w-auto">
+            <h1 class="text-2xl font-semibold">MelodyBlinkZ <i class="fa-solid fa-store"></i></h1>
+    
+            <nav class="hidden md:flex space-x-4">
+                <a href="Homepage.html" class="text-white hover:text-gray-300">Home</a>
+                <a href="Shop.html" class="text-white hover:text-gray-300">Shop</a>
+                <a href="AboutUs.html" class="text-white hover:text-gray-300">About Us</a>
+                <a href="Contact.html" class="text-white hover:text-gray-300">Contact</a>
+            </nav>
+
+        </div>
+    </header>
+
+<div class="hidden fixed top-0 left-0 h-screen w-64 bg-gray-800 py-4 z-10" id="mobile-menu">
+    <a href="Homepage.html" class="block text-white hover:text-gray-300 px-4 py-2">Home</a>
+    <a href="Shop.html" class="block text-white hover:text-gray-300 px-4 py-2">Shop</a>
+    <a href="AboutUs.html" class="block text-white hover:text-gray-300 px-4 py-2">About Us</a>
+    <a href="Contact.html" class="block text-white hover:text-gray-300 px-4 py-2">Contact</a>
+</div>
+
+    <section class="relative" style="background-color: #0000009a;">
+        <div class="container mx-auto">
+            <div id="heroSlider" class="flex items-center justify-center">
+                <div class="hidden">
+                    <img src="/images/lace1.webp" alt="Slide 1" style="width: 100vw;">
+                </div>
+                <div class="hidden">
+                    <img src="/images/lace3.jpg" alt="Slide 2" >
+                </div>
+                <div class="hidden">
+                    <img src="/images/ca1.jpg" alt="Slide 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12">
+        <div class="container mx-auto flex justify-center">
+            <a href="Shop.html" class="text-white bg-indigo-500 hover:bg-indigo-600 px-6 py-3 rounded-lg">View Collections</a>
+        </div>
+    </section>
+
+    <section class="py-12">
+        <div class="container mx-auto">
+            <h2 class="text-3xl text-center font-semibold mb-6">Featured Products</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="/images/clt1.jpg" alt="Product 1" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Product 1</h3>
+                        <p class="text-gray-600">Concise description of Product 1.</p>
+                        <button
+                            class="mt-4 px-4 py-2 bg-indigo-500 text-white rounded-lg hover:bg-indigo-600 transition duration-300">View
+                            Details</button>
+                    </div>
+                </div>
+    
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="/images/clt2.jfif" alt="Product 2" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Product 2</h3>
+                        <p class="text-gray-600">Concise description of Product 2.</p>
+                        <button
+                            class="mt-4 px-4 py-2 bg-indigo-500 text-white rounded-lg hover:bg-indigo-600 transition duration-300">View
+                            Details</button>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="/images/clt3.jfif" alt="Product 2" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Product 2</h3>
+                        <p class="text-gray-600">Concise description of Product 2.</p>
+                        <button
+                            class="mt-4 px-4 py-2 bg-indigo-500 text-white rounded-lg hover:bg-indigo-600 transition duration-300">View
+                            Details</button>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="/images/clt4.jfif" alt="Product 2" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Product 2</h3>
+                        <p class="text-gray-600">Concise description of Product 2.</p>
+                        <button
+                            class="mt-4 px-4 py-2 bg-indigo-500 text-white rounded-lg hover:bg-indigo-600 transition duration-300">View
+                            Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 bg-gray-100">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold mb-6">Our Unique Selling Points</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <i class="fas fa-star text-4xl text-indigo-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Premium Quality</h3>
+                    <p class="text-gray-600">Our clothes are crafted with premium materials to ensure top-notch quality and
+                        comfort.</p>
+                </div>
+    
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <i class="fas fa-leaf text-4xl text-indigo-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Sustainability</h3>
+                    <p class="text-gray-600">We are committed to sustainable practices and environmentally-friendly
+                        manufacturing.</p>
+                </div>
+    
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <i class="fas fa-truck text-4xl text-indigo-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Free Shipping</h3>
+                    <p class="text-gray-600">Enjoy free shipping on all orders, making it easier to shop with us!</p>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold mb-6">Customer Testimonials</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <div class="testimonial p-6 rounded-lg shadow-md">
+                    <i class="quote-icon fas fa-quote-left text-indigo-500 mb-4"></i>
+                    <p class="text-gray-600">"I love the quality and style of their clothes. The customer service was
+                        exceptional, and my order arrived sooner than expected. Highly recommended!"</p>
+                    <p class="text-gray-800 font-semibold mt-4">- Maureen M.</p>
+                </div>
+    
+                <div class="testimonial p-6 rounded-lg shadow-md">
+                    <i class="quote-icon fas fa-quote-left text-indigo-500 mb-4"></i>
+                    <p class="text-gray-600">"The sustainable practices of this brand caught my attention. I am impressed
+                        with their dedication to eco-friendly fashion. The clothes are comfortable and stylish too!"</p>
+                    <p class="text-gray-800 font-semibold mt-4">- Maryjane C.</p>
+                </div>
+    
+                <div class="testimonial p-6 rounded-lg shadow-md">
+                    <i class="quote-icon fas fa-quote-left text-indigo-500 mb-4"></i>
+                    <p class="text-gray-600">"The free shipping is a huge plus! I had a seamless shopping experience, and
+                        the clothes fit perfectly. Will definitely shop here again."</p>
+                    <p class="text-gray-800 font-semibold mt-4">- Mmesoma O.</p>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold mb-6">Featured Collections</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <!-- Collection 1 -->
+                <div class="collection p-6 rounded-lg shadow-md">
+                    <img src="/images/ca1.jpg" alt="Collection 1" class="mb-4 rounded-md">
+                    <h3 class="text-xl font-semibold mb-2">Summer Collection</h3>
+                    <p class="text-gray-600">Stay cool and stylish with our trendy summer outfits. Perfect for beach days
+                        and vacations.</p>
+                    <a href="Shop.html" class="text-indigo-600 hover:underline mt-4 block">Explore Collection</a>
+                </div>
+    
+                <!-- Collection 2 -->
+                <div class="collection p-6 rounded-lg shadow-md">
+                    <img src="/images/ca6.jpg" alt="Collection 2" class="mb-4 rounded-md">
+                    <h3 class="text-xl font-semibold mb-2">Athleisure Wear</h3>
+                    <p class="text-gray-600">Find the perfect balance between style and comfort with our athleisure wear
+                        collection.</p>
+                    <a href="Shop.html" class="text-indigo-600 hover:underline mt-4 block">Explore Collection</a>
+                </div>
+    
+                <!-- Collection 3 -->
+                <div class="collection p-6 rounded-lg shadow-md">
+                    <img src="/images/ca5.jpg" alt="Collection 3" class="mb-4 rounded-md">
+                    <h3 class="text-xl font-semibold mb-2">Formal Classics</h3>
+                    <p class="text-gray-600">Elevate your wardrobe with our timeless formal classics. Perfect for special
+                        occasions.</p>
+                    <a href="Shop.html" class="text-indigo-600 hover:underline mt-4 block">Explore Collection</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-semibold mb-6">Subscribe to Our Newsletter</h2>
+            <p class="text-gray-600 mb-6">Stay updated with our latest collections, exclusive offers, and more!</p>
+            <form id="newsletterForm" class="max-w-md">
+                <div class="flex items-center">
+                    <input type="email" name="email"
+                        class="w-full border rounded-l-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-indigo-600"
+                        placeholder="Your Email Address" required>
+                    <button type="submit"
+                        class="bg-indigo-600 text-white rounded-r-lg py-2 px-4 hover:bg-indigo-700">Subscribe</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="py-6 bg-gray-800">
+        <div class="container mx-auto flex justify-center space-x-4">
+            <!-- Social Media Icons -->
+            <a href="#" class="text-white">
+                <i class="fab fa-facebook-f text-2xl"></i>
+            </a>
+            <a href="#" class="text-white">
+                <i class="fab fa-twitter text-2xl"></i>
+            </a>
+            <a href="#" class="text-white">
+                <i class="fab fa-instagram text-2xl"></i>
+            </a>
+            <!-- Add more social media icons and links as needed -->
+        </div>
+    </section>
+
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-2xl mx-auto text-center">
+                <h2 class="text-3xl font-semibold mb-6">About Our Brand</h2>
+                <p class="text-gray-600 mb-6">At XYZ Clothing, we are passionate about providing high-quality and
+                    sustainable fashion for all. Our journey started in 20XX with a vision to redefine the clothing
+                    industry. We believe in style with a purpose and are committed to creating clothing that not only looks
+                    great but also supports the environment.</p>
+                <a href="AboutUs.html" class="text-indigo-600 hover:underline block">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Footer Section 1 -->
+                <div>
+                    <h4 class="text-xl font-semibold mb-4">Contact Us</h4>
+                    <p class="mb-2">Nnewi</p>
+                    <p class="mb-2">Anambra, Nigeria</p>
+                    <p class="mb-2">Phone: +234 7062457464</p>
+                    <p>Email: AdaobiUche56@gmail.com</p>
+                </div>
+    
+                <!-- Footer Section 2 -->
+                <div>
+                    <h4 class="text-xl font-semibold mb-4">Quick Links</h4>
+                    <ul>
+                        <li class="mb-2"><a href="Homepage.html">Home</a></li>
+                        <li class="mb-2"><a href="Shop.html">Shop</a></li>
+                        <li class="mb-2"><a href="AboutUs.html">About Us</a></li>
+                        <li class="mb-2"><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Footer Section 3 -->
+                <div>
+                    <h4 class="text-xl font-semibold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-white">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-white">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-white">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Copyright and Disclaimer -->
+            <div class="mt-8 text-center">
+                <p class="text-sm">&copy; 2023 MelodyBlinkZ Clothing. All rights reserved.</p>
+                <p class="text-sm">Disclaimer: Images used for demonstration purposes only.</p>
+            </div>
+        </div>
+    </footer>
+
+    
+
+    <script src="/js/Homepage.js"></script>
+</body>
+</html>
